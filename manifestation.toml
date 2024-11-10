@@ -10,7 +10,7 @@ icon = "icon.png"
 readme = "README.md"
 
 [project]
-csharp = "./WebfishingSampleMod/Graze.BaitRefill.csproj"
+csharp = "./Graze.BaitRefill/Graze.BaitRefill.csproj"
 godot = "./project/project.godot"
 
 [[dependencies]]
