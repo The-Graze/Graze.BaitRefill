@@ -1,3 +1,3 @@
-# WebfishingSampleMod
+# BaitRefill
 
-See [the setup guide](https://notnite.github.io/webfishing-mod-wiki/guides/setup/) for more information.
+A Simple mod to auto buy new bait if you have enough money
