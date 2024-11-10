@@ -1,16 +1,16 @@
 
-id = "WebfishingSampleMod"
-name = "Webfishing Sample Mod"
-description = "This is a sample mod."
+id = "Graze.BaitRefill"
+name = "Bait Refill"
+description = "a Simple mod that lets you auto refill your bait so you can keep on fishin'"
 version = "1.0.0"
-homepage = "https://github.com/NotNite/WebfishingSampleMod"
-author = "You!"
+homepage = "https://github.com/The-Graze/Graze.BaitRefill"
+author = "Graze"
 
 icon = "icon.png"
 readme = "README.md"
 
 [project]
-csharp = "./WebfishingSampleMod/WebfishingSampleMod.csproj"
+csharp = "./Graze.BaitRefill/Graze.BaitRefill.csproj"
 godot = "./project/project.godot"
 
 [[dependencies]]
