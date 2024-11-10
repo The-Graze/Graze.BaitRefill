@@ -1,13 +1,13 @@
 ﻿using GDWeave;
 
-namespace WebfishingSampleMod;
+namespace Graze.BaitRefill;
 
 public class Mod : IMod {
     public Config Config;
 
     public Mod(IModInterface modInterface) {
         this.Config = modInterface.ReadConfig<Config>();
-        modInterface.RegisterScriptMod(new ExampleScriptMod());
+        modInterface.RegisterScriptMod(new BaitMod());
         modInterface.Logger.Information("Hello, world!");
     }
 
